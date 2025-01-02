@@ -1,5 +1,3 @@
-(in-package :cl-user)
-
 (defun remove-each-rnth-reducer (n &key key)
   (let ((predicate (or key (constantly t)))
         (count 0))
